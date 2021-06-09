@@ -94,6 +94,7 @@ a{
 .col-2 h1{
     font-size: 62px;
     font-weight: 600;
+    color: #fff !important;
 }
 
 span{
@@ -103,6 +104,7 @@ span{
 .col-2 p{
     margin: 10px 0 50px;
     max-width: 580px;
+    color: #fff;
 }
 
 .col-2 .btn{
@@ -318,7 +320,7 @@ h4{
 /* Escuela */
 
 .escuela{
-    background: radial-gradient(#abad20bd, #4d19db);
+    background: linear-gradient(45deg,#4d19db,#abad20bd );
     margin-top: 50px;
     padding: 60px 0;
 }
@@ -349,11 +351,11 @@ h4{
     transform: translateY(-5px);
 }
 .col-2 h1{
-    color: #fff;
+    color: yellow;
 }
 
-.col-2 p{
-    color: yellow;
+.escuela p{
+    color: white;
 }
 
 

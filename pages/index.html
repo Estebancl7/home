@@ -25,10 +25,13 @@
                 <ul id="links">
                     <li><a href="">Inicio</a></li>
                     <li><a href="">Nosotros</a></li>
+                        
                 </ul>
                 <a class="btn" href="">Registrate</a>
+                <img src="/img/menu.png" class="menu-icon" onclick="menutoggle()">
+                
             </nav>
-    
+            
         </div>
         
 
@@ -172,13 +175,13 @@
                     <img src="/img/bandera.png" alt="">
                 </div>
                 <div class="col-5">
-                    <img src="/img/bandera.png" alt="">
+                    <img src="/img/core.png" alt="">
                 </div>
                 <div class="col-5">
-                    <img src="/img/bandera.png" alt="">
+                    <img src="/img/logo.png" alt="">
                 </div>
                 <div class="col-5">
-                    <img src="/img/bandera.png" alt="">
+                    <img src="/img/gore.png" alt="">
                 </div>
                 <div class="col-5">
                     <img src="/img/bandera.png" alt="">
@@ -199,7 +202,7 @@
                     </div>
                     <div class="footer-col-2">
                         <img src="/img/bandera.png" alt="">
-                        <p>Nuestro proposito es entregar informacion y educar al pueblo
+                        <p style="text-align: center;">Nuestro proposito es entregar informacion y educar al pueblo
                             con el fin de crecer todos juntos, jamas dejes de soñar
                         </p>
                     </div>
@@ -228,6 +231,19 @@
         </div>
     </section>
     
+<script>
+    var links = document.getElementById("links");
+    links.style.maxHeight = "0px";
+    function menutoggle(){
+        if(links.style.maxHeight == "0px"){
+            links.style.maxHeight = "200px";
+        }else{
+            links.style.maxHeight = "0px" 
+        }
+    }    
+        
+</script>
+
 </body>
 
 <script src="https://kit.fontawesome.com/c8152ea011.js" crossorigin="anonymous"></script>
